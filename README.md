@@ -26,7 +26,7 @@ site : https://cafe.daum.net/scwpark/AavY/54,
 2진수 값 
 (Binary)	해당 비트 조합	MQM 계산식 (Hz)	최종 주파수 (Hz)	비고
 
-0	         없음	                0	        0 Hz	신호 없음 (Ground)
+0	         없음                0             0 Hz              신호 없음 (Ground)
 
 1	        1st bit	                2	        2 Hz	 기초 주파수
 
