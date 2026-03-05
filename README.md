@@ -25,30 +25,47 @@ site : https://cafe.daum.net/scwpark/AavY/54,
 
 2진수 값 
 (Binary)	해당 비트 조합	MQM 계산식 (Hz)	최종 주파수 (Hz)	비고
-0	없음	0	0 Hz	신호 없음 (Ground)
-1	1st bit	2	1 Hz	기초 주파수
-10	2nd bit	3	2 Hz	제2 채널
-11	1st + 2nd	5	3 Hz	주파수 중첩 시작
-100	3rd bit	6	4 Hz	상태 비트(+1) 적용
-101	1st + 3rd	8	5 Hz	복합 파형 1
-110	2nd + 3rd	9	6 Hz	복합 파형 2
-111	1st+2nd+3rd	11	7 Hz	풀 비트 중첩
-1000	4th bit	12	8 Hz	상태 비트(+1) 재적용
+
+0	         없음	                0	        0 Hz	신호 없음 (Ground)
+
+1	        1st bit	                2	        2 Hz	 기초 주파수
+
+10	        2nd bit	                3	        3 Hz	제2 채널
+
+11	        1st + 2nd	        5	        5 Hz	주파수 중첩 시작
+
+100	        3rd bit	                6	        6 Hz	상태 비트(+1) 적용
+
+101	        1st + 3rd	        8	        8 Hz	복합 파형 1
+
+110	        2nd + 3rd	        9	        9 Hz	복합 파형 2
+
+111	        1st+2nd+3rd	        11	        11 Hz	풀 비트 중첩
+
+1000	        4th bit	                12	        12 Hz	상태 비트(+1) 재적용
+
 
 
 [2] PAM방식 MQM
 AMPLITUDE방식도 [1]과유사하게 비트값을 하면
 n bit를 1채널에 보낼 수 있음
 2진수 값
- (Binary)	해당 비트 조합	MQM 계산식 
-(mV)	최종 전압
- (mV)	비고
-0	없음	0	0 mV	신호 없음 (Ground)
-1	1st bit	2	2 mV	기초 전압 설정
-10	2nd bit	3	3 mV	제2 채널 활성화
-11	1st + 2nd	2 + 3	5 mV	전압 중첩 시작
-100	3rd bit	6	6 mV	상태 비트(+1) 적용
-101	1st + 3rd	2 + 6	8 mV	복합 전압 파형 1
-110	2nd + 3rd	3 + 6	9 mV	복합 전압 파형 2
-111	1st+2nd+3rd	2+3+6	11 mV	1그룹 하위 풀 비트 중첩
-1000	4th bit	12	12 mV	상태 비트(+1) 재적용
+ (Binary)	해당 비트 조합	MQM 계산식 (mV)	최종 전압 (mV)	비고
+ 
+0	        없음	        0	        0 mV	신호 없음 (Ground)
+
+1	        1st bit	        2	        2 mV	기초 전압 설정
+
+10	        2nd bit	        3	        3 mV	제2 채널 활성화
+
+11	        1st + 2nd	2 + 3	        5 mV	전압 중첩 시작
+
+100	        3rd bit	        6	        6 mV	상태 비트(+1) 적용
+
+101	        1st + 3rd	2 + 6	        8 mV	복합 전압 파형 1
+
+110	        2nd + 3rd	3 + 6	        9 mV	복합 전압 파형 2
+
+111	        1st+2nd+3rd	2+3+6	        11 mV	1그룹 하위 풀 비트 중첩
+
+1000	        4th bit	        12	        12 mV	상태 비트(+1) 재적용
