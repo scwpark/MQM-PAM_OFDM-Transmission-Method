@@ -49,6 +49,7 @@ site : https://cafe.daum.net/scwpark/AavY/54,
 [2] PAM방식 MQM
 AMPLITUDE방식도 [1]과유사하게 비트값을 하면
 n bit를 1채널에 보낼 수 있음
+
 2진수 값
  (Binary)	해당 비트 조합	MQM 계산식 (mV)	최종 전압 (mV)	비고
  
