@@ -7,6 +7,8 @@
 ;This technology is released as prior art.
 ;The author waives patent rights.
 
+
+
 # Multi-Quantum Mode (MQM) Superposition Algorithm for HBM
 
 ![License: Open Source](https://img.shields.io/badge/License-Open_Source-green.svg)
@@ -30,6 +32,9 @@ $F(n) = 2^n \times \text{Scaling Factor}$
 *(Where $n$ is the bit position and Scaling Factor is the hardware amplification constant)*
 
 ### 2.2 3D Data Symbol
+
+핵심 keyword : data 전송 Symbol = (Frequency , Amplitude , Phase)
+
 The transmitted symbol is a synthesis of three independent physical dimensions:
 * **Frequency ($f$):** $n$-bit mapping
 * **Amplitude ($A$):** $m$-bit PAM-based voltage mapping
