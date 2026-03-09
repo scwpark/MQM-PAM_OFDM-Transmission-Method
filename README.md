@@ -183,6 +183,7 @@ Author: Sungtae Park (scwpark)
 MQM pipeline includes Huffman pre-compression before transmission.
 
 > Reference implementation: **Huffman (VC 6.0 Korean version)**
+> 
 > 8_huffmancode_mem_DecompressHeapsort_frequencycompact(2006-7-18).zip
 > - Author: Sungtae Park (scwpark)
 > - Source code available in this repository
