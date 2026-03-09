@@ -35,6 +35,11 @@ A single data symbol is defined by the integration of three physical dimensions:
 ---
 
  1channel에 1cycle 당 (n + m ) x phase bit를  보내는 기술... + 발열에 좋은 방법
+
+ ; Data transfer Throughput  = [ frequency ( n bits) + amplitude( m bits )] x phase number  
+
+ Option A:  [ Leading bits → Frequency ]  +  [ Trailing bits → Amplitude ]
+ Option B:  [ Leading bits → Amplitude ]  +  [ Trailing bits → Frequency ]
  
 ;This technology is released as prior art.
 ;The author waives patent rights.
