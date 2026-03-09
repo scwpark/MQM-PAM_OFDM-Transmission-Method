@@ -141,6 +141,6 @@ This algorithm, conceived in the early 1980s and formalized in 2026, is released
 - Channel 수 증가 = 주파수 상승 없이 성능 선형 증가
 - 물리적 wire 추가 없이 MQM 인코딩으로 확장 가능
 - HBM4 (2048 wire) 적용 시 즉시 구현 가능
-
+- 🟣 4096 channel (n=8, m=8, p=8 ) 일 때   데이타량이 21큐비트 양자 컴퓨터 와 유사
 Author: Sungtae Park (scwpark)
 Date: 2026.3.4 ~
