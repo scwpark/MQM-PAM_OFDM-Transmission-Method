@@ -34,7 +34,7 @@ A single data symbol is defined by the integration of three physical dimensions:
 
 ---
 
- 1channel에 1cycle 당 (n + m ) x phase bit를  보내는 기술... + 발열에 좋은 방법
+ 1channel에 1cycle 당 (n + m ) x phase bit( phase 3bit = 8states )를  보내는 기술... + 발열에 좋은 방법
 
 ## Core Formula
 
@@ -46,7 +46,7 @@ Data Transfer Throughput = [ Frequency (n bits) + Amplitude (m bits) ] × Phase 
 |--------|-------------|
 | `n` | Bits encoded in the **Frequency** dimension |
 | `m` | Bits encoded in the **Amplitude** dimension |
-| `Phase Number` | Number of discrete phase states (e.g., 2, 4, 8, 16 …) |
+| `Phase Number` | Number of discrete phase states (e.g. phase 3bit = 8states,   8bits = 256 states ) |
 
 > **Key Point:** In a single channel, MQM transmits **`(n + m) × Phase Number` bits per cycle** — far exceeding conventional single-dimension encoding schemes.
 
