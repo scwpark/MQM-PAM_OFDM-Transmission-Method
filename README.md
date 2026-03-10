@@ -246,6 +246,14 @@ keeps this old doctor-inventor going! 🦋
 - 예금주: PARK SUNG TAE ( 박성태 )
 - SWIFT: SHBKKRSE ( 신한은행 )
 - Account : 110-623-275173
-> "I had this dream in the 1980s.  
-> Forty years later, I'm giving it to the world for free.  
-> A coffee would be nice though." ☕😄
+*"In the early 2000s, I built a C/C++-based in-memory database using threaded AVL and Red-Black trees. 
+* It was taken — by companies, by people — and quietly folded into AI systems and databases without a word.*
+
+*I said nothing. I moved on. I went to medical school.*
+
+*But here I am again, with MQM. And I'm giving this one away too — freely, deliberately, and without regret.*
+
+*I had this dream in the 1980s.*
+*Forty years later, I'm giving it to the world for free.*
+*A coffee would be nice though."* 🦋😄
+
